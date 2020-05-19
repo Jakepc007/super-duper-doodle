@@ -1,12 +1,12 @@
 import React from 'react';
 import { hot } from 'react-hot-loader'
 import './App.css';
+import TodoList from './todos/TodoList';
 
 const App = () => (
-    <h1>
-        Hello
-        OK
-    </h1>
+    <div className="App">
+        <TodoList />
+    </div>
 )
 
 export default hot(module)(App);
