@@ -12,8 +12,8 @@ const TodoListItem = ({ todo, onRemovePressed }) => (
                 onClick={() => onRemovePressed(todo.text)}>
                 Remove
             </button>
-        </div >
-    </div >
+        </div>
+    </div>
 )
 
 export default TodoListItem;
